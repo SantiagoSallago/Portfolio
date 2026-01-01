@@ -1,0 +1,45 @@
+@media screen and (max-width: 420px){
+    .UniqueProyect{
+        width: 95vw;
+        height: auto;
+    }
+    .UniqueProyect .uniqueProyect_Image{
+        width: auto;
+        height: 30vh;
+        display: flex;
+    }
+    .UniqueProyect .uniqueProyect_Image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .UniqueProyect h3{
+        font-size: 1.7rem;
+        height: 10dvh;
+    }
+    .UniqueProyect .p_card{
+        display: none;
+    }
+    .UniqueProyect a{
+        text-align: center;
+        width: 100%;
+        height: 10vh;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width:1025px) and (max-height:601px) {
+    .UniqueProyect .uniqueProyect_Image img{
+        width: 100%;
+        height: 90%;
+    }
+    .UniqueProyect h3{
+        font-size: 1.5rem;
+    }
+    .UniqueProyect .p_card{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/font/TikTokSans-VariableFont_opsz\,slnt\,wdth\,wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: 'MyFont', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color1: #130d1c;
+  ;
+  --color2: #103655;
+  --color3: #0a6399;
+  --color4: #059be9;
+  --color5: #08ddff;
+
+}
+
+* {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

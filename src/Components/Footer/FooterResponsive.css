@@ -1,0 +1,6 @@
+@media screen and (max-width: 420px){
+    footer .social a{
+    text-decoration: none;
+    width: 15%;
+}
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 420px) {
+    .modal-proyect {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100dvh;
+        top: 0%;
+        left: 0%;
+    }
+
+    .modalProyectImage {
+        width: 100%;
+        height: 50%;
+        border-right: none;
+    }
+
+    .modalProyectText {
+        width: 100%;
+        height: 50%;
+        border-left: none;
+    }
+
+    .modalProyectText .proyectModalContent p{
+        font-size: 1.2rem;
+        width: 100%;
+        height: auto;
+    }
+    
+.modalProyectText .link-modal{
+    font-size: 1.1rem;
+}
+}
