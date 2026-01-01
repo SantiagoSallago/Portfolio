@@ -1,4 +1,4 @@
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
     .home {
         width: 100vw;
         display: flex;
@@ -48,4 +48,17 @@
         object-fit: cover;
     }
     
+}
+
+@media screen and (max-width: 378px){
+    .home .home_text .button_container .button{
+        width: 90%;
+        height: 7vh;
+    }
+}
+@media (max-height:1366px) and (max-width:1024px) {
+    .home .home_text .button_container .button{
+
+        font-size: 2.5rem;
+    }
 }

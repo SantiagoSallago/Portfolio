@@ -9,8 +9,8 @@
         align-items: center;
         justify-content: center;
     }
-    .Technologies .h2{
-        font-size: 1.6rem;
+    .Technologies .h2 h2{
+        font-size: 2.3rem;
     }
 }
 
@@ -25,4 +25,38 @@
     .Technologies .h2{
         font-size: 1.7rem;
     }
+}
+@media screen and (max-width: 430px){
+    .Technologies .Technologies_Icons{
+
+        width: 95%;
+        height: 60dvh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Technologies .h2{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 378px){
+    .Technologies .h2 h2{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-height:1180px) and (max-width:820px){
+    .Technologies .Technologies_Icons {
+        width: 95%;
+    }
+}
+
+@media (max-height:1366px) and (max-width:1024px){
+    .Technologies .Technologies_Icons {
+        width: 95%;
+    }
+
 }

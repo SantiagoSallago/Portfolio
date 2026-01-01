@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Carrousel.css";
+import "./CarrouselResponsive.css"
 
 type CarouselItem = {
   img: string;
