@@ -13,7 +13,7 @@ const Home = () => {
                     <p>FullStack Developer</p>
                 </div>
                 <div className="button_container">
-                    <a className="button" download={pdf}>Descargar CV</a>
+                    <a className="button" href={pdf} download="Santiago_Sallago_CV.pdf">Descargar CV</a>
                 </div>
             </div>
             <div className='image_chibi'>
