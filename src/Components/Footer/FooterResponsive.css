@@ -1,29 +1,27 @@
-@media screen and (max-width: 430px){
-    footer .social a{
-    text-decoration: none;
-    width: 15%;
-}
+/* Tablets / notebooks chicos */
+@media screen and (max-width: 1024px) {
+    footer .social a {
+        width: 4.6%;
+    }
 }
 
-@media screen and (max-width: 378px){
-    footer .social a{
-    text-decoration: none;
-    width: 12%;
-}
-}
-@media (max-height:1180px) and (max-width:820px){
-    footer .social a{
+/* Tablets */
+@media screen and (max-width: 820px) {
+    footer .social a {
         width: 12%;
     }
 }
 
-@media (max-height:1366px) and (max-width:1024px){
-    footer .social a{
-        width: 11%;
+/* Mobile */
+@media screen and (max-width: 430px) {
+    footer .social a {
+        width: 15%;
     }
 }
-@media screen and (max-width:1024px) {
-    footer .social a{
-        width: 10%;
+
+/* Mobile chico */
+@media screen and (max-width: 378px) {
+    footer .social a {
+        width: 12%;
     }
 }

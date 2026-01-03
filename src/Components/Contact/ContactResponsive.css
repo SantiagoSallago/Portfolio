@@ -26,3 +26,21 @@
         font-size: 1.9rem;
     }
 }
+
+/* Mobile */
+@media screen and (max-width: 430px) {
+    .Contact .form form{
+        width: 95%;
+        height: 90%;
+    }
+    .Contact .form form button{
+        font-size: 1.4rem;
+        height: 8%;
+        width: 40%;
+    }
+}
+
+/* Mobile chico */
+@media screen and (max-width: 376px) {
+ 
+}

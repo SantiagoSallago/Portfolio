@@ -1,47 +1,56 @@
+
+@media screen and (min-width: 1025px) {
+    .AboutMe h2{
+        height: 25%;
+    }
+
+    .AboutMe p{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+}
+
+/* Tablets / notebooks chicos */
+@media screen and (max-width: 1024px) {
+    .AboutMe h2 {
+        font-size: 2rem;
+        height: 35%;
+    }
+
+    .AboutMe p {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+}
+
+/* Mobile */
 @media screen and (max-width: 430px) {
     .AboutMe {
         width: 100vw;
-        height: 60vh;
+        height: 65vh;
     }
 
     .AboutMe h2 {
+        height: 10%;
         font-size: 2rem;
     }
-}
 
-@media (max-width:1025px) and (max-height:601px) {
-    
-    .AboutMe h2 {
-        font-size: 1.rem;
-        height: 25%;
-    }
-
-    .AboutMe p{
-        font-size: 1.2rem;
-        height: 75%;
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 378px){
-    .AboutMe h2 {
+    .AboutMe p {
         font-size: 1.5rem;
     }
-    .AboutMe p{
-        font-size: 1.07rem;
-    }
 }
 
-@media (max-height:1366px) and (max-width:1024px) {
-    .AboutMe h2{
-        align-items: center;
-        font-size: 2.5rem;
-        height: 25%;
+/* Mobile chico */
+@media screen and (max-width: 376px) {
+    .AboutMe {
+        height: 50vh;
+    }
+    .AboutMe h2 {
+        height: 15%;
+        font-size: 1.5rem;
     }
 
-    .AboutMe p{
-        font-size: 1.7rem;
-        height: 75%;
-        width: 90%;
+    .AboutMe p {
+        font-size: 1.07rem;
     }
 }

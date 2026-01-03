@@ -1,29 +1,78 @@
+/* Tablets / notebooks chicos */
+@media screen and (max-width: 1024px) {
+    .modal-proyect {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100dvh;
+        top: 0;
+        left: 0;
+    }
+
+    .modalProyectImage {
+        width: 100%;
+        height: 100%;
+        border-right: none;
+    }
+
+    .modalProyectText {
+        width: 100%;
+        height: 100%;
+        border-left: none;
+    }
+    .modalProyectText .close-button{
+        height: 9%;
+        width: 8%;   
+        z-index: 10;
+        position: relative;
+    }
+
+    .modalProyectText .proyectModalContent h3 {
+        height: auto;
+        font-size: 2.4rem;
+    }
+
+    .modalProyectText .close-button {
+        font-size: 2rem;
+    }
+
+    .modalProyectText .proyectModalContent p {
+        font-size: 1.6rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .modalProyectText .link-modal {
+        font-size: 1.8rem;
+    }
+}
+
+/* Mobile */
 @media screen and (max-width: 430px) {
     .modal-proyect {
         display: flex;
         flex-direction: column-reverse;
         width: 100%;
         height: 100dvh;
-        top: 0%;
-        left: 0%;
+        top: 0;
+        left: 0;
     }
 
-    .modalProyectImage {
-        width: 100%;
-        height: 50%;
-        border-right: none;
+     .modalProyectText .close-button{
+        font-size: smaller;
+        height: 8%;
+        width: 7%;   
+        z-index: 10;
+    }
+    .modalProyectText{
+        overflow-y: hidden;
+        height: 100%;
     }
 
-    .modalProyectText {
-        width: 100%;
-        height: 50%;
-        border-left: none;
+    .modalProyectText .link-modal{
     }
-
     .modalProyectText .proyectModalContent p {
         font-size: 1.2rem;
-        width: 100%;
-        height: auto;
     }
 
     .modalProyectText .link-modal {
@@ -31,92 +80,22 @@
     }
 }
 
+/* Mobile chico */
 @media screen and (max-width: 391px) {
-    .modal-proyect .modalProyectText{
-        width: 100%;
-        height: 70%;
-    }
-    .modal-proyect .modalProyectImage {
-        width: 100%;
-        height: auto;
-    }
-}
-@media (max-height:1180px) and (max-width:820px) {
-    .modal-proyect {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-        height: 100dvh;
-        top: 0%;
-        left: 0%;
-    }
-      .modalProyectImage {
-        width: 100%;
-        height: 50%;
-        border-right: none;
-    }
-
     .modalProyectText {
-        width: 100%;
-        height: 50%;
-        border-left: none;
-    }
-    .modalProyectText .proyectModalContent h3 {
-        font-size: 2.5rem;
-        width: 100%;
-        height: auto;
-    }
-    .modalProyectText .close-button{
-        font-size: 2rem;
+        height: 60%;
     }
 
-    .modalProyectText .proyectModalContent p {
+   .modal-proyect .proyectModalContent h3{
         font-size: 1.6rem;
-        width: 100%;
+        height: auto;
+    }
+    .modal-proyect .proyectModalContent p{
+        font-size: 1.1rem;
         height: auto;
     }
 
-    .modalProyectText .link-modal {
-        font-size: 1.8rem;
-    }
-}
-
-@media (max-height:1366px) and (max-width:1024px) {
-     .modal-proyect {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-        height: 100dvh;
-        top: 0%;
-        left: 0%;
-    }
-      .modalProyectImage {
-        width: 100%;
-        height: 50%;
-        border-right: none;
-    }
-
-    .modalProyectText {
-        width: 100%;
-        height: 50%;
-        border-left: none;
-    }
-    .modalProyectText .proyectModalContent h3 {
-        font-size: 2.5rem;
-        width: 100%;
-        height: auto;
-    }
-    .modalProyectText .close-button{
-        font-size: 2rem;
-    }
-
-    .modalProyectText .proyectModalContent p {
-        font-size: 1.6rem;
-        width: 100%;
-        height: auto;
-    }
-
-    .modalProyectText .link-modal {
-        font-size: 1.8rem;
+    .modalProyectImage {
+        height: 40%;
     }
 }
